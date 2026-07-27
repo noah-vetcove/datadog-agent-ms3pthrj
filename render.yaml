@@ -3,6 +3,7 @@ services:
     name: datadog-agent
     runtime: docker
     plan: starter
+    region: virgina
     envVars:
       - key: DD_API_KEY
         sync: false
