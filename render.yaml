@@ -6,3 +6,5 @@ services:
     envVars:
       - key: DD_API_KEY
         sync: false
+      - key: DD_SITE
+        value: us5.datadoghq.com
